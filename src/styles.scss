@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+    font-size: 1rem;
+    background: #2c3e50;
+    font-family: "Helvetica";
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  .container {}
+
+  .main-container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+  }
+
+  .badge-app {
+    background: #e74c3c;
+    color: #fff;
+  }
+
+  .badge-app-completed {
+    background: #2ecc71;
+  }
+
+  #branding {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica";
+
+    font-weight: 100;
+    color: #2ecc71;
+  }
+
+  #mainNav li a {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica";
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #fff;
+  }
+
+  #mainNav .nav-item .active,
+  #mainNav .nav-item .nav-link:hover {
+    background: #2ecc71;
+    color: #000;
+  }
+
+  /* Dashboard */
+  .project-list {
+    font-size: 0.8em;
+  }
+
+  .project-list .badge-app,
+  .project-list .badge-app-completed {
+    padding: 10px;
+  }

@@ -1,0 +1,8 @@
+<ul class="list-group">
+  <li
+    class="list-group-item d-flex justify-content-between align-items-center"
+    *ngFor="let project of projects$ | async ">
+    <a [routerLink]="['/projects', project.id]">{{ project.name }}</a>
+  </li>
+  
+</ul>
